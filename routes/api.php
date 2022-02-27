@@ -18,6 +18,6 @@ use Illuminate\Support\Facades\Route;
 //     return $request->user();
 // });
 
-Route::get('/',function(Request $request){
+Route::get('/hey',function(Request $request){
     echo 'Hey';
 });
